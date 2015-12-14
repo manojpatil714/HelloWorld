@@ -10,4 +10,8 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
+
+    public int add(String x, String y) {
+        return Integer.parseInt(x) + Integer.parseInt(y);
+    }
 }
